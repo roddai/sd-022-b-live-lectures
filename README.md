@@ -7,7 +7,7 @@ Este repositório armazena os códigos e scripts fornecidos durante as aulas ao 
 
 ## Começando
 
-Basta clonar o repositório
+Basta clonar o repositório da Tribo B
 
 ```sh
 git clone git@github.com:tryber/sd-022-b-live-lectures.git
