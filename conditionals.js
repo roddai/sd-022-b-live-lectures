@@ -9,12 +9,23 @@ if (number1 > number2) {
 }
 
 // Segunda parte
-let age = 18;
+let age = 11;
+let xyz = 2;
 
 if (age > 18) {
   console.log('Can drive');
 } else if (age < 18) {
   console.log('Can not drive');
+  console.log(xyz);
 } else {
   console.log('Can drive, but with restrictions');
+}
+
+// Terceira parte
+let youWon = false;
+
+if (youWon) {
+  console.log('Congratulations');
+} else {
+  console.log('Try again');
 }
