@@ -9,7 +9,7 @@ if (number1 > number2) {
 }
 
 // Segunda parte
-let age = 11;
+let age = 18;
 let xyz = 2;
 
 if (age > 18) {
