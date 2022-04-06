@@ -29,3 +29,15 @@ if (youWon) {
 } else {
   console.log('Try again');
 }
+
+// Quarta parte
+let myNumber = 25;
+let myString = '25';
+
+console.log(myNumber === myString);
+
+if (myNumber === myString) {
+  console.log('Equals');
+} else {
+  console.log('Different');
+}
