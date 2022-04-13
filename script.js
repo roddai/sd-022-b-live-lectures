@@ -66,3 +66,11 @@ for (let index = 0; index < daysList.length; index += 1) {
 function alteraCor(elementos, cor){
   document.querySelector(elementos).style.backgroundColor = cor;
 };
+
+alteraCor('.month-container', 'black');
+
+alteraCor('#btn-holiday', 'red');
+
+alteraCor('.week-days', 'rgb(226, 168, 168)');
+
+alteraCor('body', 'blue');
