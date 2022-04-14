@@ -19,9 +19,17 @@ function createDivElement(classes) {
 // newDiv3.className = 'square green medium';
 
 // 3. Adiciono o elemento criado na estrutura HTML
-container.appendChild(createDivElement('square yellow small'));
-container.appendChild(createDivElement('circle red small'));
-container.appendChild(createDivElement('square green medium'));
+function addElementAsChild(parent, element) {
+  parent.appendChild(createDivElement(element));
+}
+
+addElementAsChild(container, 'square yellow small');
+addElementAsChild(container, 'circle red small');
+addElementAsChild(container, 'square green medium');
+
+// container.appendChild(createDivElement('square yellow small'));
+// container.appendChild(createDivElement('circle red small'));
+// container.appendChild(createDivElement('square green medium'));
 
 // container.appendChild(newDiv2);
 // container.appendChild(newDiv3);
