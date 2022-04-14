@@ -10,12 +10,25 @@ function createDivElement(classes) {
 }
 
 // 3. Adiciono o elemento criado na estrutura HTML
+// function addElementAsChild(parent, element) {
+//   parent.appendChild(createDivElement(element));
+// }
+
+// let features = ['square yellow small', 'circle red small', 'square green medium'];
+
+// for (let fetClasses of features) {
+//   addElementAsChild(container, fetClasses);
+// }
+
+// OUTRA FORMA
+
 function addElementAsChild(parent, element) {
-  parent.appendChild(createDivElement(element));
+  parent.appendChild(element);
 }
 
 let features = ['square yellow small', 'circle red small', 'square green medium'];
 
 for (let fetClasses of features) {
-  addElementAsChild(container, fetClasses);
+  let element = createDivElement(fetClasses)
+  addElementAsChild(container, element);
 }
