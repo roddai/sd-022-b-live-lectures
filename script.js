@@ -2,17 +2,27 @@
 let container = document.querySelector('#first');
 
 // 2. Crio um elemento HTML via JS e personalizo-o
-let newDiv1 = document.createElement('div');
-newDiv1.className = 'square yellow small';
+function createDivElement(classes) {
+  let newDiv = document.createElement('div');
+  newDiv.className = classes;
 
-let newDiv2 = document.createElement('div');
-newDiv2.className = 'circle red big';
+  return newDiv;
+}
 
-let newDiv3 = document.createElement('div');
-newDiv3.className = 'square green medium';
+// let newDiv1 = document.createElement('div');
+// newDiv1.className = 'square yellow small';
+
+// let newDiv2 = document.createElement('div');
+// newDiv2.className = 'circle red big';
+
+// let newDiv3 = document.createElement('div');
+// newDiv3.className = 'square green medium';
 
 // 3. Adiciono o elemento criado na estrutura HTML
-container.appendChild(newDiv1);
-container.appendChild(newDiv2);
-container.appendChild(newDiv3);
+container.appendChild(createDivElement('square yellow small'));
+container.appendChild(createDivElement('circle red small'));
+container.appendChild(createDivElement('square green medium'));
+
+// container.appendChild(newDiv2);
+// container.appendChild(newDiv3);
 
