@@ -1,8 +1,16 @@
+// window.onload = function () {
+//   console.log('Hello!');
+// } 
 window.onload = function () {
-  console.log('Hello!');
-} 
+  console.log('palmas');
+}
 
-console.log(window.onload);
+function func1() {
+  console.log('café');
+}
+
+func1();
+
 
 // window.onload = function () {  // função anônima
 //   let button = document.getElementById('start-race-btn');
