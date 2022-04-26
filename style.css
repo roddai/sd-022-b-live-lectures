@@ -18,8 +18,8 @@ body {
   border: 1px solid rgb(214, 217, 220);
   border-radius: 3px;
   width: 80%;
-  margin: 40px 0;
-  padding: 50px;
+  margin: 20px 0;
+  padding: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -34,7 +34,7 @@ body {
   border: 1px solid rgb(214, 217, 220);
   border-radius: 3px;
   width: 80%;
-  padding: 50px;
+  padding: 30px;
   margin: 0 auto 40px auto;
 }
 
