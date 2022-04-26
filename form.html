@@ -16,8 +16,25 @@
   <form action="" method="get" class="speaker-form">
     <div class="form-row">
       <div class="line-content">
-        <label for="full-name">Nome</label>
-        <input type="text" name="nome" id="full-name">
+        <label for="full-name" >Nome</label>
+        <input type="text" name="nome" id="full-name" autocomplete="off">
+      </div>
+
+      <div class="line-content">
+        <label for="e-mail">Email</label>
+        <input type="email" name="email" id="e-mail" autocomplete="off">
+      </div>
+
+      <div class="line-content">
+        <fieldset>
+          <legend>Tipo de Palestra</legend>
+
+          <input type="radio" name="talk-type" id="talk-type-1" value="main" checked>
+          <label for="talk-type-1">Palco Principal</label>
+          
+          <input type="radio" name="talk-type" id="talk-type-2" value="workshop">
+          <label for="talk-type-2">Workshop</label>
+        </fieldset>
       </div>
 
       <div class="line-content">

@@ -42,7 +42,16 @@
   margin-bottom: 40px;
 } */
 
-/* .form-row input[type="text"] {
+/* .form-row input[type="text"], input[type="email"] {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+} */
+
+/* .form-row input[type="email"] {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(214, 217, 220);
   border-radius: 3px;
