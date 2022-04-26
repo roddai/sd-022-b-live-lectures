@@ -59,3 +59,9 @@ body {
   margin: 20px;
   border: 0 none;
 }
+
+textarea {
+  resize: none;
+  width: 100%;
+  display: block;
+}
