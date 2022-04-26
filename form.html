@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Submeter Palestra</title>
+</head>
+
+<body>
+  <header class="speaker-form-header">
+    <h1>Submeter Palestra</h1>
+    <p><em>Quer palestrar na nossa conferência? Preencha o formulário!</em></p>
+  </header>
+
+  <form action="" method="get" class="speaker-form">
+    <div class="form-row">
+      <div class="line-content">
+        <label for="full-name">Nome</label>
+        <input type="text" name="nome" id="full-name" autocomplete="off">
+      </div>
+
+      <div class="line-content">
+        <label for="e-mail">Email</label>
+        <input type="email" name="email" id="e-mail" autocomplete="off">
+      </div>
+
+      <div class="line-content">
+        <fieldset>
+          <legend>Tipo de Palestra</legend>
+
+          <input type="radio" name="talk-typeA" id="talk-type-1" checked>
+          <label for="talk-type-1">Palco Principal</label>
+
+          <input type="radio" name="talk-typeB" id="talk-type-2">
+          <label for="talk-type-2">Workshop</label>
+        </fieldset>
+      </div>
+
+      <div class="line-content">
+        <label for="">Tamanho da Camiseta</label>
+        <select name="t-shirt" id="t-shirt-size">
+          <option value="pp">Extra Pequena</option>
+          <option value="p">Pequena</option>
+          <option value="m" selected>Média</option>
+          <option value="g">Grande</option>
+          <option value="xg">Extra Grande</option>
+        </select>
+      </div>
+
+      <div class="line-content">
+        <label for="abstract-1">Resumo</label>
+        <textarea name="abstract" id="abstract-1" maxlength="500" rows="10"
+          placeholder="Descreva sua palestra em 500 caracteres ou menos"></textarea>
+      </div>
+
+      <div class="line-content">
+        <input type="checkbox" name="available" id="available-1">
+        <label for="available-1">Estou disponível nesta data para a palestra</label>
+      </div>
+
+      <div class="line-content">
+        <button type="submit">Submeter</button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
