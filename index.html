@@ -25,46 +25,46 @@
     <form action="" method="get" class="container">
       <div class="container mb-3">
         <label for="full-name" class="form-label">Nome</label>
-        <input type="text" id="full-name" name="full-name" class="form-control"/>
+        <input type="text" id="full-name" name="full-name" class="form-control" />
       </div>
 
-      <section class="container">
+      <section class="container mb-3">
         <div class="container">
           <p class="lead">Tipo de palestra</p>
-          
+
           <div class="form-check">
-            <input type="radio" name="talk-type" value="main-stage" id="talk-type-1" class="form-check-input"/>
+            <input type="radio" name="talk-type" value="main-stage" id="talk-type-1" class="form-check-input" />
             <label class="form-check-label" for="talk-type-1">Principal</label>
           </div>
-          
+
           <div class="form-check">
-            <input type="radio" name="talk-type" value="workshop" id="talk-type-2" class="form-check-input"/>
+            <input type="radio" name="talk-type" value="workshop" id="talk-type-2" class="form-check-input" />
             <label class="form-check-label" for="talk-type-2">Wokshop</label>
           </div>
 
         </div>
       </section>
 
-      <div>
+      <div class="container mb-3">
         <label class="form-label" for="">Tamanho da camiseta:</label>
-        <select name="t-shirt" id="t-shirt">
-          <option value="p">P</option>
-          <option value="m">M</option>
-          <option value="g">G</option>
+        <select name="t-shirt" id="t-shirt" class="form-select">
+          <option value="p">Pequeno</option>
+          <option value="m">Médio</option>
+          <option value="g">Grande</option>
         </select>
       </div>
 
       <div class="container mb-3">
         <label class="form-label" for="abstract">Resumo da palestra</label>
-        <textarea name="abstract" id="abstract" cols="30" rows="10" class="form-control"></textarea>
+        <textarea name="abstract" id="abstract" cols="30" rows="10" class="form-control" style="resize: none;"></textarea>
       </div>
 
-      <div>
+      <div class="container mb-3">
         <input type="checkbox" name="avalible" id="avalible" />
         <label class="form-label" for="avalible">Confirmo que estou disponível na data do evento</label>
       </div>
 
-      <div>
+      <div class="container mb-3">
         <button>Enviar</button>
       </div>
     </form>
