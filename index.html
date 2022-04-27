@@ -21,26 +21,26 @@
 
   <hr>
 
-  <main>
-    <form action="" method="post">
-      <div>
-        <label for="full-name">Nome</label>
-        <input type="text" id="full-name" name="full-name" />
+  <main class="container">
+    <form action="" method="get" class="container">
+      <div class="container mb-3">
+        <label for="full-name" class="form-label">Nome</label>
+        <input type="text" id="full-name" name="full-name" class="form-control"/>
       </div>
 
       <div>
         <fieldset>
           <legend>Tipo de palestra</legend>
           <input type="radio" name="talk-type" value="main-stage" id="talk-type-1" />
-          <label for="talk-type-1">Principal</label>
+          <label class="form-label" for="talk-type-1">Principal</label>
 
           <input type="radio" name="talk-type" value="workshop" id="talk-type-2" />
-          <label for="talk-type-2">Wokshop</label>
+          <label class="form-label" for="talk-type-2">Wokshop</label>
         </fieldset>
       </div>
 
       <div>
-        <label for="">Tamanho da camiseta:</label>
+        <label class="form-label" for="">Tamanho da camiseta:</label>
         <select name="t-shirt" id="t-shirt">
           <option value="p">P</option>
           <option value="m">M</option>
@@ -48,14 +48,14 @@
         </select>
       </div>
 
-      <div>
-        <label for="abstract">Resumo da palestra</label>
-        <textarea name="abstract" id="abstract" cols="30" rows="10"></textarea>
+      <div class="container mb-3">
+        <label class="form-label" for="abstract">Resumo da palestra</label>
+        <textarea name="abstract" id="abstract" cols="30" rows="10" class="form-control"></textarea>
       </div>
 
       <div>
         <input type="checkbox" name="avalible" id="avalible" />
-        <label for="avalible">Confirmo que estou disponível na data do evento</label>
+        <label class="form-label" for="avalible">Confirmo que estou disponível na data do evento</label>
       </div>
 
       <div>
