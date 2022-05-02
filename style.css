@@ -33,3 +33,35 @@ a {
 .login {
   margin-left: 20px;
 }
+
+.header-container {
+  background-color: #d6e9fe;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  border: 1px solid white;
+  width: 300px;
+  height: 300px;
+}
