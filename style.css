@@ -332,4 +332,12 @@ footer ul li:nth-child(4) {
     flex-direction: column;
   }
 
+  .newsletter button {
+    margin-top: 10px;
+  }
+
+  .newsletter input {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
 }
