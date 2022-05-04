@@ -34,7 +34,6 @@ header {
   left: 0;
   padding: 20px 50px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -59,12 +58,10 @@ header nav {
 }
 
 .hero h1 {
-  font-size: 50px;
   margin-bottom: 15px;
 }
 
 .hero h3 {
-  font-size: 25px;
   margin-bottom: 15px;
 }
 
@@ -298,6 +295,22 @@ footer ul li:nth-child(4) {
   /* order: 1; */
 }
 
+/* Para telas maiores que 601 pixels */
+@media screen and (min-width: 601px) {
+  header {
+    justify-content: space-between;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+  
+  .hero h3 {
+    font-size: 25px;
+  }
+}
+
+/* Para telas menores que 600 pixels */
 @media screen and (max-width: 600px) {
   header nav {
     display: none;
