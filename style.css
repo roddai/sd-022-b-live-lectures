@@ -283,17 +283,17 @@ footer ul li:nth-child(4) {
 }
 
 footer ul li:nth-child(1) {
-  order: 4;
+  /* order: 4; */
 }
 
 footer ul li:nth-child(2) {
-  order: 3;
+  /* order: 3; */
 }
 
 footer ul li:nth-child(3) {
-  order: 2;
+  /* order: 2; */
 }
 
 footer ul li:nth-child(4) {
-  order: 1;
+  /* order: 1; */
 }
