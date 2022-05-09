@@ -25,15 +25,30 @@ const getNumberOfDaysInMonth = (month) => {
     case 12:
       return 31;
     default:
-      return 'Mês inválido';
+      throw new Error('Mês inválido');
   }
+
+  // uncaught: não pego
+  // throw: lançar
+  // try: experimentar
+  // catch: pegar
+
 };
 const renderAmountOfDaysInMonth = () => {
-  const month = document.getElementById('month').value;
-  const result = document.getElementById('result');
-  result.innerHTML = `O mês ${month} tem ${getNumberOfDaysInMonth(month)} dias`;
-  document.getElementById('month').value = '';
-};
+  try {
+    const month = document.getElementById('month').value;
+    const result = document.getElementById('result');
+    result.innerHTML = `O mês ${month} tem ${getNumberOfDaysInMonth(month)} dias`;
+    
+  } catch (error) {
+    // result.innerHTML = `${error.message}`;
+    alert(`Erro: ${error.message}`);
+    document.getElementById('result').innerHTML = '';
+    
+  } finally {
+    document.getElementById('month').value = '';
+  }
+}
 
 window.onload = () => {
   const button = document.getElementById('button');
