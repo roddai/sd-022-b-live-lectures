@@ -1,0 +1,22 @@
+{
+  "name": "sd-022-b-live-lectures",
+  "version": "1.0.0",
+  "description": "Aulas ao vivo - Turma 22 - Tribo B",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roddai/sd-022-b-live-lectures.git"
+  },
+  "author": "Rods",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roddai/sd-022-b-live-lectures/issues"
+  },
+  "homepage": "https://github.com/roddai/sd-022-b-live-lectures#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
