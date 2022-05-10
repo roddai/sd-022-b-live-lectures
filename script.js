@@ -24,6 +24,8 @@ const getNumberOfDaysInMonth = (month) => {
       return 30;
     case 12:
       return 31;
+    case 13:
+      throw new Error('Mês inválido, mas tem pagamento extra');
     default:
       throw new Error('Mês inválido');
   }
