@@ -39,5 +39,9 @@ describe('Requisito 2 - Testes para a função summationOf', () => {
   it('Espera-se que o somatório de 5 seja igual a 15', () => {
     expect(summationOf(5)).toBe(15);
   })
+
+  it('Lança um erro quando nenhum parâmetro é passado', () => {
+    expect(() => summationOf()).toThrow('summationOf deve receber um valor numérico');
+  });
 });
 

@@ -13,6 +13,10 @@ function sum(a, b) {
  */
 
 const summationOf = (number) => {
+  if (number === undefined) {
+    throw new Error('summationOf deve receber um valor numérico');
+  }
+  
   let sommation = 0;
 
   for (let index = 1; index <= number; index += 1) {
