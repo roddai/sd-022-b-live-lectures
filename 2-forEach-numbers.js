@@ -10,14 +10,25 @@ const newArray = [];
 // console.log(newArray);
 
 // COM FOREACH
-numbers.forEach((number) => newArray.push(number * 3));
+// numbers.forEach((number) => newArray.push(number * 3));
 
-console.log(newArray);
+// console.log(newArray);
 
 // COM FOREACH na função
-const multiplicaPorTres = () => {
-  numbers.forEach((number) => newArray.push(number * 3));
+// const multiplicaPorTres = () => {
+//   numbers.forEach((number) => newArray.push(number * 3));
+//   return newArray;
+// }
+
+// console.log(multiplicaPorTres());
+
+
+const multiplicaPorTres = (array) => {
+  const newArray = [];
+  array.forEach((number) => newArray.push(number * 3));
   return newArray;
 }
 
-multiplicaPorTres();
+// console.log(multiplicaPorTres(multiplicaPorTres([-2, 1, -5])));
+
+module.exports = { multiplicaPorTres };
