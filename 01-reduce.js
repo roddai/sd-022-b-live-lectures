@@ -1,3 +1,5 @@
+// Somar os valores do array
+
 const numbers = [2, 3, 4, 6, 7, 12, 24];
 
 // const sum = (array) => {
@@ -18,8 +20,9 @@ const numbers = [2, 3, 4, 6, 7, 12, 24];
 // }
 
 const sum = (array) => array
-  .reduce( (accumulator, currentValue) => accumulator + currentValue, 0 );
+  .reduce( (accumulator, currentValue) => accumulator + currentValue );
 
-console.log(sum(numbers));
+// console.log(sum(numbers));
+// console.log(sum([]));
 
 module.exports = { sum }
