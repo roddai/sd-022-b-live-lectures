@@ -1,9 +1,9 @@
-// Reduza o array acima em um objeto conforme o exemplo abaixo
+// Reduza o array abaixo em um objeto conforme o exemplo abaixo
 // {
-//   ‘Adriano Imperador’: ‘didico@futebol.br’,
-//   ‘Ronaldinho Gaúcho’: ‘bruxo@futebol.br’,
-//   ‘Ronaldo Fenômeno’: ‘cortedocascao@futebol.br’,
-//   ‘Marta Vieira da Silva’: ‘rainhamarta@futebol.br’,
+//   'Adriano Imperador': 'didico@futebol.br',
+//   'Ronaldinho Gaúcho': 'bruxo@futebol.br',
+//   'Ronaldo Fenômeno': 'cortedocascao@futebol.br',
+//   'Marta Vieira da Silva': 'rainhamarta@futebol.br',
 // }
 
 const players = [
@@ -21,3 +21,14 @@ const newPlayers = (array) => {
 }
 
 console.log(newPlayers(players));
+
+// const theBestPlayers = {
+//   'Adriano Imperador': 'didico@futebol.br',
+//   'Ronaldinho Gaúcho': 'bruxo@futebol.br',
+//   'Ronaldo Fenômeno': 'cortedocascao@futebol.br',
+//   'Marta Vieira da Silva': 'rainhamarta@futebol.br',
+// }
+
+// theBestPlayers['Rods Rosa'] = 'rods@futebol.br';
+
+// console.log(theBestPlayers);
