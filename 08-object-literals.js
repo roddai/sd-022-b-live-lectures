@@ -28,6 +28,6 @@ const createSuperhero = (name, superheroName, nickname, powers) => {
 };
 
 
-console.log(createSuperhero('Bruce Wayne', 'Batman', 'The Caped Crusader', 'Determination and money'))
+// console.log(createSuperhero('Bruce Wayne', 'Batman', 'The Caped Crusader', 'Determination and money'))
 
 module.exports = { createSuperhero, response };
