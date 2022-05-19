@@ -7,7 +7,7 @@ const printPointCoordinates = (x, y, z) => `Point coordinates are x = ${x}, y = 
 // console.log(printPointCoordinates(point[0], point[1], point[2]));
 // console.log(printPointCoordinates(otherPoint[0], otherPoint[1], otherPoint[2]));
 
-console.log(printPointCoordinates(...point));
-console.log(printPointCoordinates(...otherPoint));
+// console.log(printPointCoordinates(...point));
+// console.log(printPointCoordinates(...otherPoint));
 
 module.exports = { printPointCoordinates, point, otherPoint }

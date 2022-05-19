@@ -26,6 +26,6 @@ const scifiBooks = ['I, Robot', 'Caves of Steel', 'The End of Eternity'];
 // Usando Spread Operators
 const awesomeBooks = [...horrorBooks, ...scifiBooks];
 
-console.log(awesomeBooks);
+// console.log(awesomeBooks);
 
 module.exports = { awesomeBooks }
